@@ -4,7 +4,7 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": ".\\node.exe start-electron.js"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "~1.7.8",
-    "electron-builder": "^19.55.2"
+    "electron-builder": "^19.55.2",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0"
   }
 }
