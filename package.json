@@ -1,0 +1,22 @@
+{
+  "name": "wlx-electron-test",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "test"
+  ],
+  "author": "wlx-flyrainbow",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "electron-builder": "^19.55.2"
+  }
+}
